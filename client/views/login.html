@@ -1,0 +1,46 @@
+<section class="container">
+ 
+    <section class="center-form panel">
+      <section class="panel-body">
+        <section ng-message="server">{{errorMessage.email}}</section>
+        <h4 class="text-center"><i class="ion-log-in"></i> Log in</h4>
+ 
+        <form name="loginForm" ng-submit="emailLogin()" novalidate>
+          <section class="form-group has-feedback" ng-class="{ 'has-error': loginForm.email.$invalid && loginForm.email.$dirty }">
+            <input server-error class="form-control input-lg" type="text" name="email" ng-model="email" placeholder="Email" required autofocus>
+            <span class="ion-at form-control-feedback"></span>
+            <section class="help-block" ng-if="loginForm.email.$dirty" ng-messages="loginForm.email.$error">
+              <section ng-message="required">Please enter your email</section>
+              <section ng-message="server">{{errorMessage.email}}</section>
+            </section>
+          </section>
+ 
+          <section class="form-group has-feedback" ng-class="{ 'has-error': loginForm.password.$invalid && loginForm.password.$dirty }">
+            <input server-error class="form-control input-lg" type="password" name="password" ng-model="password" placeholder="Password" required>
+            <span class="ion-key form-control-feedback"></span>
+            <section class="help-block" ng-if="loginForm.password.$dirty" ng-messages="loginForm.password.$error">
+              <section ng-message="required">Please enter your password</section>
+              <section ng-message="server">{{errorMessage.password}}</section>
+            </section>
+          </section>
+ 
+          <button type="submit" class="btn btn-block btn-success" ng-disabled="loginForm.$invalid">Log in</button>
+ 
+          <br/>
+ 
+          <p class="text-center text-muted">
+            <small>Don't have an account yet? <a href="#/signup">Sign up</a></small>
+          </p>
+ 
+          <section class="signup-or-separator">
+            <h6 class="text">or</h6>
+            <hr>
+          </section>
+        </form>
+        <button class="btn btn-block btn-instagram" ng-click="instagramLogin()">
+          <i class="ion-social-instagram"></i> Sign in with Instagram
+        </button>
+      </section>
+    </section>
+ 
+</section>
