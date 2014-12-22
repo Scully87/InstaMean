@@ -10,8 +10,20 @@
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+
+	<section class="navbar navbar-default navbar-static-top">
+		<section class="container">
+			<ul class="nav navbar-nav">
+				<a href="/" class="navbar-brand"><i class="ion-images"></i> InstaJAM</a>
+				<li><a href="#/">HOME</a></li>
+				<li><a href="#/login">LOG IN</li>
+				<li><a href="#/signup">SIGN UP</li>
+				<li><a ng-click="logout()" href="">LOGOUT</a></li>
+			</ul>
+		</section>
+	</section>
 	
-	<div ng-view></div>
+	<section ng-view></section>
 
 	<script src="vendor/angular.min.js"></script>
 	<script src="vendor/angular-route.min.js"></script>
