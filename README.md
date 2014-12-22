@@ -15,8 +15,8 @@ INSTAJAM
 
 ## Job List
 
-- [ ] Bootstrapping
-- [ ]	Routing
+- [x] Bootstrapping
+- [x]	Routing
 - [ ]	Home Page
 - [ ]	Satellizer
 - [ ] Login/Signup Page
