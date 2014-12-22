@@ -18,9 +18,9 @@ INSTAJAM
 - [x] Bootstrapping
 - [x]	Routing
 - [x]	Home Page
-- [ ]	Satellizer
-- [ ] Login/Signup Page
-- [ ] Express Skeleton
+- [x]	Satellizer
+- [x] Login/Signup Page
+- [x] Express Skeleton
 - [ ] Database and User Model
 - [ ] Authentication
 - [ ] Deployment
