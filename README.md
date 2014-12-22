@@ -17,7 +17,7 @@ INSTAJAM
 
 - [x] Bootstrapping
 - [x]	Routing
-- [ ]	Home Page
+- [x]	Home Page
 - [ ]	Satellizer
 - [ ] Login/Signup Page
 - [ ] Express Skeleton

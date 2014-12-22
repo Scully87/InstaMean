@@ -1,6 +1,5 @@
 angular.module('InstaJAM', ['ngRoute', 'ngMessages'])
 	.config(function($routeProvider) {
-
 	$routeProvider
 	  .when('/', {
 	    templateUrl: 'views/home.html',
