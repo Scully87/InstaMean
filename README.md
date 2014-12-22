@@ -1,9 +1,7 @@
 INSTAJAM
 =======================
 
-## INSTAGRAM clone using the mean stack!
-
-TODO: Enter a description of your project here.
+#### INSTAGRAM clone using the mean stack!
 
 ![INSTAGRAM](http://i0.wp.com/alexandriasmallbusiness.com/wp-content/uploads/2014/07/instagram-small-business.png)
 
