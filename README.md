@@ -21,6 +21,6 @@ INSTAJAM
 - [x]	Satellizer
 - [x] Login/Signup Page
 - [x] Express Skeleton
-- [ ] Database and User Model
+- [x] Database and User Model
 - [ ] Authentication
 - [ ] Deployment
