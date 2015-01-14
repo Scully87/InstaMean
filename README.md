@@ -1,7 +1,7 @@
 INSTAJAM
 =======================
 
-: construction : This Project is Still Under Development : construction :
+:construction: This Project is Still Under Development :construction:
 
 #### INSTAGRAM clone using the mean stack!
 
